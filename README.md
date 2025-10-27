@@ -1,6 +1,16 @@
-# Favs App
+## Favs App
+Favorite Movies & TV Shows is a full-stack web application that helps users create and manage a personal catalog of movies and TV shows they love. It offers a clean, responsive UI and a robust backend so users can add, view, edit, and remove entries containing rich details — everything from title and director to budget, location, duration, year/time, posters, and custom notes. The entries are displayed in a table with infinite scrolling, loading more records as the user scrolls for a smooth, scalable browsing experience.
 
-This is a full-stack application for managing a list of your favorite things, built with a React frontend and a Node.js backend.
+## Key features
+
+- Add new movie/TV show entries with detailed fields (title, type, director, budget, location, duration, year/time, notes, poster).
+- View all entries in a paginated/infinite-scroll table that loads additional records as you scroll.
+- Edit existing entries and update any field, including replacing or adding a poster image.
+- Delete entries with confirmation to prevent accidental removal.
+- Search and filter the table by title, type, director, year, and other fields.
+- User authentication (signup / login / logout) to keep each user’s list private.
+- Poster/image upload support (local uploads or cloud storage like Cloudinary/S3).
+- Backend validation, secure JWT auth, and a Prisma-powered relational database.
 
 ## Cloning the Repository
 
